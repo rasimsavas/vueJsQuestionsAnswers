@@ -1,0 +1,216 @@
+{
+  "users": [
+    {
+      "full_name": "Abdullah Halit Korucuoğlu",
+      "email": "adbullah@halit.com",
+      "password": "123123123",
+      "categoryId": 9,
+      "id": 3,
+      "admin": false
+    },
+    {
+      "full_name": "rasim savas",
+      "email": "rasim@hotmail.com",
+      "password": "come1relax1",
+      "categoryId": 8,
+      "admin": true,
+      "id": 5
+    },
+    {
+      "full_name": "nonAdmin",
+      "email": "nonAdmin@gmail.com",
+      "password": "nonAdmin",
+      "categoryId": 7,
+      "admin": false,
+      "id": 6
+    },
+    {
+      "full_name": "RASIM SAVAD",
+      "email": "Admin@gmail.com",
+      "password": "come1relax1",
+      "categoryId": 8,
+      "admin": true,
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "title": "Vue Js",
+      "id": 1
+    },
+    {
+      "title": "Weka",
+      "id": 2
+    },
+    {
+      "title": "PHP",
+      "id": 3
+    },
+    {
+      "title": ".Net",
+      "id": 4
+    },
+    {
+      "title": "React",
+      "id": 5
+    },
+    {
+      "title": "Angular",
+      "id": 6
+    },
+    {
+      "title": "Svelte",
+      "id": 7
+    },
+    {
+      "title": "GO",
+      "id": 9
+    },
+    {
+      "title": "Python",
+      "id": 8
+    },
+    {
+      "title": "DevOPS",
+      "id": 11
+    }
+  ],
+  "questions": [
+    {
+      "title": "rasim savas",
+      "details": "<p>angulardir 2 </p>",
+      "categoryId": 6,
+      "created_at": "2022-05-11T07:54:55.723Z",
+      "userId": 5,
+      "id": 3
+    },
+    {
+      "title": "awdasd",
+      "details": "<p>awdasdsadw</p>",
+      "categoryId": 6,
+      "created_at": "2022-05-11T07:57:09.420Z",
+      "userId": 5,
+      "id": 5
+    },
+    {
+      "title": "web pack",
+      "details": "<p>awdasd</p>",
+      "categoryId": 8,
+      "created_at": "2022-05-11T10:10:46.771Z",
+      "userId": 5,
+      "id": 6
+    },
+    {
+      "title": "pythoin",
+      "details": "<p>awdsads</p>",
+      "categoryId": 8,
+      "created_at": "2022-05-11T10:11:51.878Z",
+      "userId": 5,
+      "id": 7
+    },
+    {
+      "title": "selam",
+      "details": "<p>123</p>",
+      "categoryId": 7,
+      "created_at": "2022-05-11T11:36:33.736Z",
+      "userId": 5,
+      "id": 9
+    },
+    {
+      "title": "python id 5",
+      "details": "<p>deneme</p>",
+      "categoryId": 8,
+      "created_at": "2022-05-11T19:47:25.804Z",
+      "userId": 8,
+      "id": 10
+    },
+    {
+      "title": "go soru",
+      "details": "<p>asdawdsda</p>",
+      "categoryId": 9,
+      "created_at": "2022-05-11T20:30:55.422Z",
+      "userId": 8,
+      "id": 11
+    },
+    {
+      "title": "soru svelte",
+      "details": "<p>svelte</p>",
+      "categoryId": 7,
+      "created_at": "2022-05-11T21:18:14.932Z",
+      "userId": 5,
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "details": "<p>bu yorum </p>",
+      "userId": 8,
+      "questionId": 9,
+      "created_at": "2022-05-11T11:36:43.941Z",
+      "like": [
+        8
+      ],
+      "dislike": [],
+      "id": 2
+    },
+    {
+      "details": "<p>yorumdur</p>",
+      "userId": 8,
+      "questionId": 11,
+      "created_at": "2022-05-11T20:31:32.821Z",
+      "like": [
+        8
+      ],
+      "dislike": [],
+      "id": 3
+    },
+    {
+      "details": "<p>cevap</p>",
+      "userId": 8,
+      "questionId": 3,
+      "created_at": "2022-05-11T20:46:43.595Z",
+      "like": [],
+      "dislike": [],
+      "id": 4
+    },
+    {
+      "details": "<p>asd</p>",
+      "userId": 8,
+      "questionId": 6,
+      "created_at": "2022-05-11T20:50:30.311Z",
+      "like": [],
+      "dislike": [],
+      "id": 5
+    },
+    {
+      "details": "<p>asda</p>",
+      "userId": 5,
+      "questionId": 3,
+      "created_at": "2022-05-11T20:56:31.597Z",
+      "like": [],
+      "dislike": [],
+      "id": 6
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 8,
+      "questionId": 7,
+      "created_at": "2022-05-11T19:47:01.359Z",
+      "id": 4
+    },
+    {
+      "userId": 8,
+      "questionId": 6,
+      "created_at": "2022-05-11T19:47:02.961Z",
+      "id": 5
+    },
+    {
+      "userId": 8,
+      "questionId": 6,
+      "created_at": "2022-05-11T20:52:23.243Z",
+      "id": 6
+    }
+  ],
+  "likes": []
+}
