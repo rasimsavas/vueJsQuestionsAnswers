@@ -20,8 +20,8 @@ yarn build
 yarn lint
 ```
 
-### Ödevler
-- ? Admin olan user bilgisine göre Kategorileri göstermek ve Kategorileri düzenlemek
+### eklenenler
+- // Admin olan user bilgisine göre Kategorileri göstermek ve Kategorileri düzenlemek
 - // Kategori listesinde 1 tane kategori seçiliyse, Soru Sor butonuna basıldığında o kategorinin otomatik olarak Soru Ekleme sayfasında set edilmesi
 - // Menünün açık kapalı olarak durumunun değişmesini sağlamak (Şu an için sadece kullanıcı adına basıldığında bu değişim gerçekleşmektedir)
 - // Comment'lerin Like ve Dislike butonlarının çalışması
